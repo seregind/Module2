@@ -1,0 +1,124 @@
+@media screen and (max-width: 1200px) {
+	.footer {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+}
+@media screen and (max-width: 1156px) {
+	.vctn-btn-box3 {
+		margin-top: 30px;
+	}
+	.general-article-box {
+		margin-left: 25px;
+		margin-right: 25px;
+	}
+
+}
+@media screen and (max-width: 1000px) {
+	.general-article-box {
+		flex-wrap: wrap;
+	}
+	.article-box3 {
+		margin-top: 60px;
+	}
+	.fieldset-tour {
+		height: 320px;
+		max-width: 500px;
+		width: 100%;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+	.fieldset-input2 {
+		margin-right: 80px;
+	}
+	.section4 {
+		justify-content: center;
+	}
+	.final-form {
+		margin-right: 0;
+	}
+	.footer {
+		display: block;
+		text-align: center;
+	}
+	.links-2x-box {
+		display: block;
+	}
+	.links, .links-2x {
+		display: block;
+		max-width: 700px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.links {
+		margin-bottom: 40px;
+	}
+	.links-2x {
+		margin-bottom: 15px;
+	}
+	.part2 {
+		position: static;
+	}
+	.links a, .links-2x a {
+		margin-right: 10px;
+	}
+	.address-box {
+		text-align: center;
+		margin-top: 60px;
+	}
+}
+@media screen and (max-width: 850px) {
+	.general-article-box {
+		flex-direction: column;
+		align-items: center;
+	}
+	.article-box1, .article-box2 {
+	margin-right: 0;
+	}
+	.article-box2 {
+		margin-top: 60px;
+	}
+}
+@media screen and (max-width: 797px) {
+	.nav-hdr {
+		height: 140px;
+		align-items: flex-start;
+		flex-wrap: wrap;
+	}
+	.vctn-btn-box1, .vctn-btn-box2 {
+		margin-right: 0;
+	}
+	.vctn-btn-box2 {
+		margin-top: 30px;
+	}
+	.general-vctn-btn-box {
+		flex-direction: column;
+		align-items: center;
+	}
+	.logo-box {
+		margin-top: 20px;
+		order: -1;
+		max-width: 790px;
+		width: 100%;
+		text-align: center;
+	}
+	
+}
+@media screen and (max-width: 540px) {
+	.fieldset-tour {
+		flex-direction: column;
+		max-width: 360px;
+		height: 500px;
+		padding-top: 40px;
+	}
+	.fieldset-input2 {
+		margin-right: 0;
+	}
+	.h2-vacations {
+	padding-top: 380px;
+	}
+	.form-btn1 {
+		width: 160px;
+		border-radius: 20px;
+	}
+}

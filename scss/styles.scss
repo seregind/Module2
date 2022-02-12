@@ -1,0 +1,317 @@
+
+@font-face {
+	font-family: 'ProximaNova';
+	src: url('../fonts/ProximaNova-Light.eot?') format('eot'),
+		url('../fonts/ProximaNova-Light.ttf') format('truetype'),
+		url('../fonts/ProximaNova-Light.woff') format('woff');
+	font-style: normal;
+	font-weight: 300;
+}
+@font-face {
+	font-family: 'ProximaNova-Regular';
+	src: url('../fonts/ProximaNova-Regular.eot?') format('eot'),
+		url('../fonts/ProximaNova-Regular.ttf') format('truetype'),
+		url('../fonts/ProximaNova-Regular.woff') format('woff');
+	font-style: normal;
+	font-weight: 400;
+}
+@font-face {
+	font-family: 'ProximaNova-Bold';
+	src: url('../fonts/ProximaNova-Bold.eot?') format('eot'),
+		url('../fonts/ProximaNova-Bold.ttf') format('truetype'),
+		url('../fonts/ProximaNova-Bold.woff') format('woff');
+	font-style: normal;
+	font-weight: 700;
+}
+@font-face {
+	font-family: 'ProximaNova-ExtraBold';
+	src: url('../fonts/ProximaNova-ExtraBold.eot?') format('eot'),
+		url('../fonts/ProximaNova-ExtraBold.ttf') format('truetype'),
+		url('../fonts/ProximaNova-ExtraBold.woff') format('woff');
+	font-style: normal;
+	font-weight: 800;
+}
+@font-face {
+	font-family: 'KeplerStd-Bold';
+	src: url('../fonts/KeplerStd-Bold.eot?') format('eot'),
+		url('../fonts/KeplerStd-Bold.ttf') format('truetype'),
+		url('../fonts/KeplerStd-Bold.woff') format('woff');
+	font-style: normal;
+	font-weight: 600;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'ProximaNova-Regular', sans-serif;
+	max-width: 1350px;
+}
+.nav-hdr {
+	height: 70px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.nav-hdr a {
+	color: #000;
+	text-decoration: none;
+}
+.bold-a {
+		font-family: 'ProximaNova-Bold', sans-serif;
+}
+.logo {
+	font-size: 40px;
+	font-family: 'Lobster', cursive;
+}
+.section1 {
+	height: 690px;
+	background-color: #2D9684;
+	background-image: url(../images/img1-sec1.png);
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+h1 {
+	font-size: 40px;
+	color: #fff;
+	font-family: 'ProximaNova-ExtraBold', sans-serif;
+}
+.fieldset-tour {
+	position: absolute;
+	bottom: 0;
+	max-width: 970px;
+	width: 100%;
+	height: 160px;
+	background-color: #fff;
+	transform: translateY(50%);
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border: none;
+}
+.fieldset-tour input {
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	padding: 0 0 10px 5px;
+	outline: none;
+}
+.form-btn1 {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	border: none;
+	background-color: red;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.h2-vacations {
+	padding-top: 190px;
+	padding-bottom: 70px;
+}
+.section2, .section3 {
+	background-color: #EBF0F1;
+}
+.h2-vacations, .h2-benefits {
+	font-size: 35px;
+	font-weight: 400;
+}
+.vctn-btn-box1, .vctn-btn-box2, .vctn-btn-box3 {
+	width: 360px;
+	height: 300px;
+	background-color: #A5D0AF;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+.section2 {
+	text-align: center;
+}
+.general-vctn-btn-box {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.vctn-btn-box1, .vctn-btn-box2 {
+	margin-right: 30px;
+}
+.vctn-btn-box1 {
+	background-image: url(../images/img1-sec2.png);
+	background-position: -110px -40px;
+}
+.vctn-btn-box2 {
+	background-image: url(../images/img2-sec2.png);
+	background-position: -80px 0;
+}
+.vctn-btn-box3 {
+	background-image: url(../images/img3-sec2.png);
+	background-position: -80px 0;
+}
+.vacation-btn {
+	width: 270px;
+	height: 70px;
+	font-size: 20px;
+	font-weight: 600;
+	color: #424650;
+	background-color: #fff;
+	border: 1px solid grey;
+	font-family: 'KeplerStd-Bold', sans-serif;
+}
+.btn-frame {
+	width: 300px;
+	height: 100px;
+	background-color: #fff;
+	margin-bottom: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.section3 {
+	text-align: center;
+}
+.h2-benefits {
+	padding-top: 100px;
+	padding-bottom: 65px;
+}
+.general-article-box {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 100px;
+}
+.img-sec3-circle {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background-color: #009A49;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 25px;
+}
+.article-box1, .article-box2, .article-box3 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 330px;
+	width: 100%;
+}
+.article-box1, .article-box2 {
+	margin-right: 60px;
+}
+.article-box h4 {
+	font-size: 20px;
+	padding-bottom: 15px;
+	font-family: 'KeplerStd-Bold', sans-serif;
+}
+.article-box p {
+	font-family: 'ProximaNova-Light', sans-serif;
+	color: #454851;
+}
+.section4 {
+	height: 570px;
+	background-color: #00C3A1;
+	background-image: url(../images/img1-sec4.png);
+	background-position: 0 -250px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+.final-form {
+	background-color: #fff;
+	height: 400px;
+	width: 390px;
+	display: flex;
+	flex-direction: column;
+	margin-right: 180px;
+	padding: 0 40px;
+}
+.final-form p {
+	font-size: 25px;
+	padding: 40px 0;
+}
+.users-info {
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	padding: 0 0 10px 5px;
+	outline: none;
+	margin-bottom: 30px;
+}
+.submit-btn {
+	margin-top: 60px;
+	border: none;
+	color: #fff;
+	background-color: red;
+	border-radius: 20px;
+	height: 40px;
+	width: 100px;
+}
+.footer {
+	background-color: #0C1715;
+	color: #fff;
+	display: flex;
+	padding: 50px 180px 35px 110px;
+}
+.links a, .links-2x a {
+	color: #fff;
+	text-decoration: none;
+}
+.bold-p {
+	font-weight: 600;
+}
+.links-2x-box {
+	display: flex;
+	position: relative;
+}
+.links, .links-2x {
+	display: flex;
+	flex-direction: column;
+	margin-right: 30px;
+}
+.address-box {
+	text-align: right;
+	margin-left: auto;
+}
+.links p, .links a, .links-2x p, .links-2x a, .address-box p {
+	padding-bottom: 10px;
+}
+.part2 {
+	position: absolute;
+	right: -65px;
+	top: 30px;
+}
+.nav-hdr a:hover {
+	color: grey;
+}
+.nav-hdr a:active {
+	color: #664E77;
+}
+.form-btn1:hover {
+	background-color: #C70000;
+}
+.form-btn1:active {
+	background-color: #8A2653;
+}
+.vacation-btn:hover {
+	background-color: #D7D7D7;
+}
+.vacation-btn:active {
+	background-color: #fff;
+}
+.submit-btn:hover {
+	background-color: #C70000;
+}
+.submit-btn:active {
+	background-color: #8A2653;
+}
+.links a:hover, .links-2x a:hover {
+	color: #9DDCDC;
+}
+.links a:active, .links-2x a:active {
+	color: #fff;
+}
+@import "helpers/_responsive.scss";
